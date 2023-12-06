@@ -1,4 +1,5 @@
 .navbar {
+    background: rgb(30, 30, 30);
     height: 5rem;
     width: 100vw;
     max-width: 75rem;
@@ -24,9 +25,9 @@
 }
 
 .desktopMenuListItem:hover {
-    color: yellow;
+    color: rgba(74,60,255,255);
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid rgba(74,60,255,255);
 }
 
 .desktopMenuBtn {
