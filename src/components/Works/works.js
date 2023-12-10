@@ -13,12 +13,15 @@ const Works = () => {
             <h2 className='worksTitle'>My Portfolio</h2>
             <span className='worksDesc'>Here of some of the projects I am most proud of! Through them, I have learned a lot about how to code effectivley, both alone and in team situations.</span>
             <div className='worksImgs'>
-                <img src={Portfolio1} alt="" className='worksImg' />
-                <img src={Portfolio2} alt="" className='worksImg' />
-                <img src={Portfolio3} alt="" className='worksImg' />
-                <img src={Portfolio4} alt="" className='worksImg' />
-                <img src={Portfolio5} alt="" className='worksImg' />
-                <img src={Portfolio6} alt="" className='worksImg' />
+                <a href="https://devpost.com/software/project-safe-water" target="_blank" rel="noopener noreferrer">
+                    <img src={Portfolio1} alt="" className='worksImg' />
+                </a>
+                <a href="https://devpost.com/software/transportation-optimized-task-list" target="_blank" rel="noopener noreferrer">
+                    <img src={Portfolio2} alt="" className='worksImg' />
+                </a>
+                <a href="https://devpost.com/software/team-dalan" target="_blank" rel="noopener noreferrer">
+                    <img src={Portfolio3} alt="" className='worksImg' />
+                </a>
             </div>
             <button className="worksBtn"> See More </button>
         </section>

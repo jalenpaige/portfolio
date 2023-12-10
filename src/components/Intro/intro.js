@@ -11,7 +11,7 @@ const Intro = () => {
                 <span className="hello">Hello,</span>
                 <span className='introText'>I'm <span className='introName'>Jalen Paige</span> <br />A Future Developer</span>
                 <p className='introPara'>
-                    I am a CS major at Santa Clara University passionate about <br /> ML, UI/UX and much more!
+                    I am a CS major at Santa Clara University passionate about <br /> ML, UI/UX and much more! Find me at my LinkedIn, Github, <br /> or DevPost (linked in the contact section).
                 </p>
                 <Link>
                     <button className='btn'>

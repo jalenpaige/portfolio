@@ -30,43 +30,43 @@ export const SpotifyTopArtists = (props) => {
             <h2 className="header">My Top Artists Right Now (via Spotify's API): </h2>
             {loading && <p>Loading...</p>}
             {!loading && result.items && (
-                <div>
+                <>
                     <div className='artistsCard'>
-                        <h2>1.</h2>
+                        <p>1.</p>
                         <div className='nameAndImg'>
-                            <h2>{result.items[0].name}</h2>
+                            <p>{result.items[0].name}</p>
                             <img src={result.items[0].images[0].url} className="artistImg" />
                         </div>
                     </div>
                     <div className='artistsCard'>
-                        <h2>2.</h2>
+                        <p>2.</p>
                         <div className='nameAndImg'>
-                            <h2>{result.items[1].name}</h2>
+                            <p>{result.items[1].name}</p>
                             <img src={result.items[1].images[0].url} className="artistImg" />
                         </div>
                     </div>
                     <div className='artistsCard'>
-                        <h2>3.</h2>
+                        <p>3.</p>
                         <div className='nameAndImg'>
-                            <h2>{result.items[2].name}</h2>
+                            <p>{result.items[2].name}</p>
                             <img src={result.items[2].images[0].url} className="artistImg" />
                         </div>
                     </div>
                     <div className='artistsCard'>
-                        <h2>4.</h2>
+                        <p>4.</p>
                         <div className='nameAndImg'>
-                            <h2>{result.items[3].name}</h2>
+                            <p>{result.items[3].name}</p>
                             <img src={result.items[3].images[0].url} className="artistImg" />
                         </div>
                     </div>
                     <div className='artistsCard'>
-                        <h2>5.</h2>
+                        <p>5.</p>
                         <div className='nameAndImg'>
-                            <h2>{result.items[4].name}</h2>
+                            <p>{result.items[4].name}</p>
                             <img src={result.items[4].images[0].url} className="artistImg" />
                         </div>
                     </div>
-                </div>
+                </>
             )}
         </div>
     )

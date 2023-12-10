@@ -4,6 +4,7 @@ import Skills from "./components/Skills/skills";
 import Works from "./components/Works/works";
 import Music from "./components/Music/music";
 import Contacts from "./components/Contacts/contacts";
+import Footer from "./components/Footer/footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Works/>
       <Music/>
       <Contacts/>
+      <Footer/>
     </div>
   );
 }

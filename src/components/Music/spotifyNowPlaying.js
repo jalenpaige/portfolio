@@ -37,7 +37,7 @@ export const SpotifyNowPlaying = (props) => {
             {loading && <p>Loading...</p>}
             {!loading && !result.isPlaying && (
                 <div>
-                    <span>Currently Offline- Check back later!</span>
+                    <span>Not Currently Listening. Check back later!</span>
                 </div>
             )}
             {!loading && result.isPlaying && (
@@ -45,7 +45,8 @@ export const SpotifyNowPlaying = (props) => {
                         <div className="imageAndTitle">
                             <span className="label">Now playing:</span>
                             <img src={result.albumImageUrl} alt={`${result.title} album art`} className="nowPlayingImg"/>
-                            <a href={result.songUrl} target="_blank" className="link">{result.title} by {result.artist}</a>
+                            <a href={result.songUrl} target="_blank" className="link">{result.title}</a>
+                            <p className="artistName"> by {result.artist}</p>
                         </div>
                 </div>
             )}

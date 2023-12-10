@@ -27,6 +27,7 @@
 .imageAndTitle {
     display: flex;
     flex-direction: column;
+    width: 25rem;
     align-items: center;
     justify-content: space-between;
 }
@@ -37,11 +38,20 @@
 
 .link {
     color: white;
+    font-size: medium;
+    width: auto;
+    height: auto;
 }
 
 .link:hover {
    color: lightblue;
    border-bottom: 1px solid lightblue; 
+}
+
+.artistName {
+    text-align: center;
+    font-size: small;
+    font-weight: 200;
 }
 
 .desc {

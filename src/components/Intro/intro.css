@@ -43,6 +43,7 @@
 }
 
 .btn {
+    display: none;
     background: white;
     margin: 1rem 0;
     align-items: center;

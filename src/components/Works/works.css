@@ -38,6 +38,7 @@
 }
 
 .worksBtn {
+    display: none;
     margin: 3rem 0;
     padding: 0.5rem 2.5rem;
     border: none;
