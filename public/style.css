@@ -5,6 +5,7 @@
     text-decoration:  none;
     background: transparent;
     font-family: 'Poppins', sans-serif;
+    scrollbar-color: rgb(50, 50, 50) rgb(30, 30, 30);
 }
 
 body {

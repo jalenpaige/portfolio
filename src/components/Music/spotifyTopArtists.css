@@ -1,0 +1,43 @@
+#topArtists {
+    margin: 2rem auto;
+    padding: 2rem 2rem;
+    width: 80vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.artistsCard {
+    display: flex;
+    margin: 1rem auto;
+    max-width: 30rem;
+    height: 5rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.artistImg {
+    object-fit: cover;
+    height: 4rem;
+    width: 4rem;
+    margin-right:  2rem;
+    border-radius: 25%;
+}
+
+.header {
+    text-align: center;
+    font-weight: 300;
+}
+
+.nameAndImg {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
