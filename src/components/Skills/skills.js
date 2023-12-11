@@ -23,7 +23,7 @@ const Skills = () => {
                     <img src={WebDesign} alt="WebDesign" className='skillBarImg' />
                     <div className='skillBarText'>
                         <h2>Web Design</h2>
-                        <p>I have experience with React (which this website is built with!), VueJS, and NodeJS. These tools have helped me build several websites for Hhckathons, internships, and some personal projects.</p>
+                        <p>I have experience with React (which this website is built with!), VueJS, and NodeJS. These tools have helped me build several websites for Hackathons, internships, and some personal projects.</p>
                     </div>
                 </div>
                 <div className='skillBar'>
