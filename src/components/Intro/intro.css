@@ -43,7 +43,7 @@
 }
 
 .btn {
-    display: none;
+    display: flex;
     background: white;
     margin: 1rem 0;
     align-items: center;
@@ -51,6 +51,11 @@
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 2rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: lightgrey;
 }
 
 .btnImg {

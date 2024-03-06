@@ -57,7 +57,6 @@ export const getTopArtists = async (client_id, client_secret, refresh_token) => 
         }
 
         const result = await response.json();
-        console.log("test get", result);
         return result;
     } catch (error) {
         console.error("Error fetching top artists:", error);

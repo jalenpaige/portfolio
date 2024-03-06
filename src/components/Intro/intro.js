@@ -13,7 +13,7 @@ const Intro = () => {
                 <p className='introPara'>
                     I am a CS major at Santa Clara University passionate about <br /> ML, UI/UX and much more! Find me at my LinkedIn, Github, <br /> or DevPost (linked in the contact section).
                 </p>
-                <Link>
+                <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500}>
                     <button className='btn'>
                         <img src={btnImg} alt="" className='btnImg' />
                         Check out some of my projects and hobbies!
