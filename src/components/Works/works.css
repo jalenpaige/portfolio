@@ -106,3 +106,10 @@
 .image-container:hover .image-caption {
     opacity: 1;
 }
+
+.gh-link {
+    display: flex;
+    color: lightblue;
+    align-self: center;
+    text-align: center;
+}
